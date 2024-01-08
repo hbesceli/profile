@@ -1,0 +1,58 @@
+
+
+body{
+  background-color: rgb(228, 219, 210);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  line-height: normal;
+  color: rgb(93, 93, 93);
+}
+h2{
+  font-size:x-large;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+
+a:hover {
+  color: black;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 50px 10%;
+  border: 1px solid rgb(6, 6, 6);
+  border-radius: 5px;
+}
+@media (max-width: 100000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 50px
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 50px
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 50px
+  }
+}
+
+.image {
+  width: 300px;
+  border-radius: 5px;
+}
